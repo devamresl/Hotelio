@@ -1,0 +1,762 @@
+
+/* Start Navbar */
+
+.navbar
+{
+    position: absolute;
+    z-index: 2;
+    margin-left: 137px;
+    margin-top: 10px;
+}
+
+.navbar .navbar-brand
+{
+    color: #fff;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.navbar .navbar-collapse ul
+{
+    margin-left: 300px;
+}
+
+.navbar .navbar-collapse ul .nav-item
+{
+    margin-left: 40px;
+}
+
+.navbar .navbar-collapse ul .nav-item > a
+{
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: .32px;
+    line-height: 20px;
+}
+
+.navbar .navbar-collapse button:nth-of-type(1)
+{
+    color: #ff935c;
+    font-size: 16px;
+    letter-spacing: .32px;
+    line-height: 20px;
+    margin-left: 40px;
+    background-color: #fff;
+    border: 1px solid #ff935c;
+    padding: 16px 39px;
+}
+
+.navbar .navbar-collapse button:nth-of-type(2)
+{
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: .32px;
+    line-height: 20px;
+    margin-left: 26px;
+    background-color: #ff935c;
+    padding: 16px 31px;
+}
+
+/* End Navbar */
+
+/* Start Carousel */
+
+.carousel
+{
+    margin-bottom: 48px;
+}
+
+.carousel div img
+{
+    width: 100%;
+}
+
+.carousel .want
+{
+    position: absolute;
+    margin-top: -270px;
+    margin-left: 85px;
+    background-color: #fff;
+    padding: 48px 20px;
+    z-index: 2;
+}
+
+.carousel .want h3
+{
+    color: #2d3561;
+    font-size: 24px;
+    line-height: 29px;
+    display: inline-block;
+    margin-bottom: 32px;
+}
+
+.carousel .want a
+{
+    float: right;
+    text-decoration: none;
+    color: #bcbcbc;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: .32px;
+}
+
+.carousel .want a > i
+{
+    margin-left: 5px;
+}
+
+.carousel .want form
+{
+    display: inline-block;
+}
+
+.carousel .want form
+{
+    border: 1px solid #2d3561;
+    border-radius: 4px;
+    margin-right: 16px;
+}
+
+.carousel .want form > input
+{
+    border: none;
+}
+
+.carousel .want form:nth-of-type(1) > input
+{
+    width: 221px;
+    height: 50px;
+    padding: 18px 0;
+}
+
+.carousel .want form:nth-of-type(1) > i
+{
+    margin-left: 20px;
+    color: #bcbcbc;
+}
+
+.carousel .want form:nth-of-type(2) > input
+{
+    width: 149px;
+    height: 50px;
+}
+
+.carousel .want form:nth-of-type(2) > i
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #bcbcbc;
+}
+
+.carousel .want form:nth-of-type(3) > input
+{
+    width: 197px;
+    height: 50px;
+}
+
+.carousel .want form:nth-of-type(3) > i
+{
+    margin-left: 20px;
+    margin-right: 12px;
+    color: #bcbcbc;
+}
+
+.carousel .want div button
+{
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: .32px;
+    height: 52px;
+    background-color: #ff935c;
+    padding: 16px 24px;
+    border-radius: 5px;
+    border: none;
+}
+
+@media (max-width: 576px)
+{
+    .carousel
+    {
+        margin-bottom: 0;
+    }
+
+    .carousel div img
+    {
+        width: 100%;
+    }
+
+    .carousel .want
+    {
+        position: relative;
+        margin-top: 30px;
+    }
+
+    .carousel .want h3
+    {
+        display: block;
+    }
+
+    .carousel .want a
+    {
+        float: none;
+        margin-bottom: 20p;
+    }
+
+    .carousel .want form
+    {
+        display: block;
+        margin-top: 20px;
+        width: 364px !important;
+    }
+
+    .carousel .want form:nth-of-type(3)
+    {
+        margin-bottom: 20px;
+    }
+}
+
+/* End Carousel */
+
+/* Start Rooms */
+
+.rooms h3
+{
+    color: #2d3561;
+    font-size: 32px;
+    line-height: 70px;
+    letter-spacing: .96px;
+}
+
+.rooms p
+{
+    color: #bcbcbc;
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: .48px;
+    margin-bottom: 42px;
+}
+
+.rooms img
+{
+    margin-bottom: 20px;
+}
+
+.rooms div a > i
+{
+    float: right;
+    background-color: #fff;
+    color: #ff935c;
+    top: -185px;
+    left: 13px;
+    position: relative;
+    padding: 22px;
+    border-radius: 50%;
+}
+
+@media (max-width: 576px)
+{
+    .rooms
+    {
+        text-align: center;
+    }
+
+    .rooms h3
+    {
+        font-size: 20px;
+    }
+
+    .rooms p
+    {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+
+    .rooms div a
+    {
+        position: relative;
+        z-index: 2;
+    }
+
+    .rooms div a > i
+    {
+        position: absolute;
+        z-index: 2;
+        margin-top: 175px;
+        margin-left: -35px;
+    }
+}
+
+/* End Rooms */
+
+/* Start Services */
+
+.services
+{
+    margin-bottom: 73px;
+}
+
+.services img
+{
+    width: 100%;
+}
+
+.services .ready
+{
+    padding: 88px 50px;
+}
+
+.services .ready h2
+{
+    color: #2d3561;
+    font-size: 32px;
+    line-height: 43px;
+    letter-spacing: .96px;
+    margin-bottom: 24px;
+}
+
+.services .ready p
+{
+    color: #bcbcbc;
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: .48px;
+    margin-bottom: 48px;
+}
+
+.services .ready a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: .32px;
+    background-color: #ff935c;
+    padding: 16px 32px;
+    border-radius: 5px;
+}
+
+@media (max-width: 576px)
+{
+    .services
+    {
+        margin-bottom: 0;
+    }
+
+    .services img
+    {
+        width: 100%;
+    }
+
+    .services .ready
+    {
+        padding: 20px;
+    }
+
+    .services .ready h2
+    {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 15px;
+    }
+
+    .services .ready p
+    {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 15px;
+    }
+
+    .services .ready p:nth-of-type(3)
+    {
+        margin-bottom: 35px;
+    }
+
+    .services .ready a
+    {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+}
+
+/* End Services */
+
+/* Start Book */
+
+.book
+{
+    padding: 48px 0;
+}
+
+.book h2
+{
+    color: #2d3561;
+    font-size: 32px;
+    line-height: 70px;
+    letter-spacing: .96px;
+    margin-bottom: 16px;
+}
+
+.book p
+{
+    color: #bcbcbc;
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: .48px;
+    margin-bottom: 40px;
+}
+
+.book .hotelio
+{
+    border-radius: 10px;
+    padding: 64px 90px 26px 82px !important;
+}
+
+.book .hotelio .one
+{
+    margin-bottom: 36px;
+}
+
+.book .hotelio .two
+{
+    margin-bottom: 39px;
+}
+
+.book .hotelio .three
+{
+    margin-bottom: 50px;
+}
+
+.book .hotelio .four
+{
+    margin-bottom: 32px;
+}
+
+
+.book .hotelio h5
+{
+    color: #042f4b;
+    font-size: 14px;
+    line-height: 27px;
+    letter-spacing: .48px;
+    margin-bottom: 16px;
+}
+
+.book .hotelio p
+{
+    color: #bcbcbc;
+    font-size: 12px;
+    line-height: 23px;
+    letter-spacing: .36px;
+}
+
+@media (max-width: 576px)
+{
+    .book
+    {
+        padding: 20px 0;
+    }
+
+    .book h2
+    {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 8;
+    }
+
+    .book p
+    {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+
+    .book .hotelio
+    {
+        padding: 20px !important;
+    }
+
+    .book .hotelio img
+    {
+        margin-bottom: 20px !important;
+    }
+
+    .book .hotelio h5
+    {
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+
+    .book .hotelio p
+    {
+        line-height: 16px;
+        margin-bottom: 16px;
+    }
+}
+
+/* End Book */
+
+/* Start places */
+
+.places .best
+{
+    padding: 88px 90px;
+}
+
+.places img
+{
+    width: 100%;
+}
+
+.places .best h3
+{
+    color: #2d3561;
+    font-size: 32px;
+    line-height: 43px;
+    letter-spacing: .96px;
+    margin-bottom: 24px;
+}
+
+.places .best p
+{
+    color: #bcbcbc;
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: .48px;
+    margin-bottom: 48px;
+}
+
+.places .best a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: .32px;
+    background-color: #ff935c;
+    padding: 16px 32px;
+    border-radius: 5px;
+}
+
+@media (max-width: 576px)
+{
+    .places .best
+    {
+        padding: 30px;
+    }
+
+    .places .best h3
+    {
+        font-size: 20px;
+        line-height: 16px;
+        margin-bottom: 20px;
+    }
+
+    .places .best p
+    {
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 20px;
+    }
+
+    .places img
+    {
+        width: 100%;
+    }
+
+    .places .best a
+    {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+}
+
+/* End places */
+
+/* Start Deals */
+
+.deals
+{
+    background-color: #f9e090;
+    padding: 48px 0;
+}
+
+.deals h2
+{
+    color: #2d3561;
+    font-size: 32px;
+    line-height: 70px;
+    letter-spacing: .96px;
+    margin-bottom: 16px;
+}
+
+.deals p
+{
+    color: #2d3561;
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: .48px;
+}
+
+.deals form input
+{
+    width: 362px;
+    height: 52px;
+    margin-right: 24px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.deals form button
+{
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: .32px;
+    padding: 16px 37px;
+    background-color: #ff935c;
+    border: none;
+    border-radius: 5px;
+}
+
+@media (max-width: 576px)
+{
+    .deals
+    {
+        padding: 15px 0;
+        text-align: center;
+    }
+
+    .deals h2
+    {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 8px;
+    }
+
+    .deals p
+    {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .deals form button
+    {
+        font-size: 14px;
+        line-height: 10px;
+        padding: 12px 20px;
+    }
+}
+
+/* End Deals */
+
+/* Start Footer */
+
+.footer
+{
+    padding: 48px 0;
+}
+
+.footer .rights h2
+{
+    color: #2d3561;
+    font-size: 32px;
+    line-height: 39px;
+    margin-bottom: 24px;
+}
+
+.footer .rights p
+{
+    color: #bcbcbc;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 46px;
+}
+
+.footer .rights ul li
+{
+    display: inline-block;
+    margin-right: 32px;
+}
+
+.footer .rights ul li > a
+{
+    text-decoration: none;
+    color: #ff935c;
+    border-radius: 5px;
+}
+
+.footer h3
+{
+    color: #2d3561;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: .32px;
+    margin-bottom: 24px;
+}
+
+.footer ul li
+{
+    color: #bcbcbc;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: .32px;
+    margin-bottom: 16px;
+}
+
+.footer ul li > a
+{
+    text-decoration: none;
+    color: #bcbcbc;
+}
+
+@media (max-width: 576px)
+{
+    .footer
+    {
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .footer .rights h2
+    {
+        font-size: 20px;
+        line-height: 20px;
+        margin-bottom: 12px;
+    }
+
+    .footer .rights p
+    {
+        font-size: 14px;
+        line-height: 10px;
+        margin-bottom: 20px;
+    }
+
+    .footer .rights ul li
+    {
+        margin-right: 10px;
+    }
+
+    .footer .rights ul li a > i
+    {
+        font-size: 23px;
+    }
+
+    .footer h3
+    {
+        font-size: 14px;
+        line-height: 10px;
+        margin-bottom: 16px;
+    }
+
+    .footer ul li
+    {
+        font-size: 14px;
+        line-height: 10px;
+        margin-bottom: 8px;
+    }
+}
+
+/* End Footer */
+
